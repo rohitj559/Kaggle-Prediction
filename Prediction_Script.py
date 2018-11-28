@@ -65,5 +65,13 @@ y_pred = best_model.predict(X_test)
 rms_score = np.sqrt(mean_squared_error(y_test,y_pred))
 ###############################################################################
 
-# Using 
+# Using Simple Linear Regression
+
+# Fitting Simple Linear Regression to the Training set
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X, y)
+
+# Predicting the Test set results
+y_pred = regressor.predict(X_test)
 
