@@ -7,6 +7,12 @@ Check the below link for the complete details in Kaggle website -
 
 https://www.kaggle.com/c/comp180bikeshare 
 
+File Descriptions - 
+
+train_luc.csv - Training csv file
+test_luc.csv - Testing csv file
+Prediction_Script.py - Complete prediction(using different models) code
+
 Approach/Steps - 
 
 1. Fetch the data
